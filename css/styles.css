@@ -957,6 +957,7 @@ color:var(--active-hero-button);
 .modal-form-button{
 	display: block;
 	padding: 16px 32px;
+	min-width: 169px;
 	margin: 0 auto;
 
 	color: var(--doc-color);
