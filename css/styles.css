@@ -781,7 +781,6 @@ body {
 	padding: 72px 24px 24px;
 
 	width: 408px;
-	height: 576px;
 
 	background-color: var(--modal-window);
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -832,16 +831,21 @@ body {
 	margin-bottom: 14px;
 
 	font-weight: 500;
+	line-height: 1.5;
 
 	color: var(--dark-color);
 }
 
 .modal-label-group {}
 
-.modal-form-field {
+.modal-form-field{
 	position: relative;
 	display: block;
 	margin-bottom: 8px;
+}
+
+.comment-field{
+	margin-bottom: 16px;
 }
 
 .modal-form-input:focus{
@@ -885,6 +889,7 @@ body {
 }
 
 .modal-form-comment{
+	display: block;
 	resize: none;
 	width: 100%;
 	border: 1px solid rgba(33, 33, 33, 0.2);
