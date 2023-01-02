@@ -825,6 +825,7 @@ body {
 
 .modal-form {}
 
+
 .modal-form-appeal {
 	display: block;
 	text-align: center;
@@ -837,6 +838,8 @@ body {
 }
 
 .modal-label-group {}
+
+
 
 .modal-form-field{
 	position: relative;
@@ -858,9 +861,13 @@ body {
 	margin-bottom: 4px;
 
 	font-size: 12px;
-	line-height: 1.33;
+	line-height: 1.13;
 
 	color: var(--sub-text-color);
+}
+
+.modal-form-label.first-label{
+	line-height: 1.33;
 }
 
 .modal-form-input {
